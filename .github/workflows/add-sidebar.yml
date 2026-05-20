@@ -1,0 +1,11 @@
+name: Add Sidebar File
+
+on:
+  workflow_dispatch:
+
+jobs:
+  noop:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo
+        run: echo "This workflow exists to track sidebar addition commits."
